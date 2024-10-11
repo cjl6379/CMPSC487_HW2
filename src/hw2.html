@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+        
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+        
+        <script src = "index.js"></script>
+    </head>
+    <body>
+        <h1>Reserve a car</h1>
+        <input type="text" placeholder = "Start Date (MM/DD)" id = "startField">
+        <input type="text" placeholder = "End Date (MM/DD)" id = "endField">
+        <input type="text" placeholder = "Type of car" id = "carType">
+        <input type="text" placeholder = "Name" id = "name">
+        <button onclick = 'enterData()'>Submit</button>
+        <div></div>
+        <a href="displayData.html">Click to jump page</a>
+    </body>
+</html>
